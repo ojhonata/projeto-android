@@ -22,7 +22,7 @@ font-family: 'Sedgwick Ave Display', cursive; */
 
 body{
     background-color: var(--cor01);
-    font-family: 'Roboto', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 div.video{
@@ -42,9 +42,10 @@ div.video > iframe{
 
 }
 
-a.externo::after{
+a.externo, .externo2::after{
     content: '\1F517';
 }
+
 
 header{
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
@@ -93,6 +94,10 @@ nav > a{
 nav > a:hover{
     background-color: var(--cor02);
     color: var(--cor03);
+}
+
+.externo2:hover{
+    color: var(--cor04);
 }
 
 main{
@@ -159,9 +164,10 @@ main img.android{
 }
 
 aside{
-    background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor02));
     padding: 10px;
     border-radius: 10px;
+    font-weight: bold;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.192);
 }
 
