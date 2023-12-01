@@ -167,7 +167,8 @@ aside{
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor02));
     padding: 10px;
     border-radius: 10px;
-    font-weight: bold;
+    font-family: 'Roboto', cursive;
+    font-weight: normal;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.192);
 }
 
